@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 import sys, os.path
 
-sys.path.insert(0, os.path.join(osh.path.dirname(__file__), 'soccerenv'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'soccerenv'))
 
 setup(name='soccerenv',
       version='1.0',
