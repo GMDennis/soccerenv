@@ -1,3 +1,3 @@
-from soccer import SoccerEnv
+from .soccer import SoccerEnv
 
 __all__= ["SoccerEnv"]
