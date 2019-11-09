@@ -6,4 +6,6 @@ setup(name='soccerenv',
       description='Python Distribution Utilities',
       author='emoudahi',
       include_package_data=True,
-      url='https://github.com/GMDennis/soccerenv.git')
+      packages=setuptools.find_packages(),
+      url='https://github.com/GMDennis/soccerenv.git',
+      python_requires='>=3.6')
