@@ -10,7 +10,11 @@ setup(name='soccerenv',
       author='emoudahi',
       author_email='',
       license='',
-      packages=setuptools.find_packages(),
+      packages=[package for package in find_packages()
+                if package.startswith('soccerenv')],
       zip_safe=False,
+      install_requires=[
+          'gym>=0.14.0'
+      ],
       url='https://github.com/GMDennis/soccerenv.git',
       python_requires='>=3.6')
